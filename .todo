@@ -1,6 +1,6 @@
 1. Create Campaign
 
-   - user will apply for Campaign , will mint state token
+   - user will apply for Campaign , will mint  STATE_TOKEN
    - REWARD token will be minted too of predefined qty
    - REWARD token will be stored in self script
    - REWARD token will have same metadata as STATE_TOKEN
