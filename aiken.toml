@@ -1,13 +1,13 @@
-name = "konma/crowdfunding"
+name = "cryptonean/wallet_template"
 version = "0.0.0"
 compiler = "v1.1.9"
 plutus = "v3"
 license = "Apache-2.0"
-description = "Aiken contracts for project 'konma/crowdfunding'"
+description = "Aiken template with wallet connetor "
 
 [repository]
-user = "konma"
-project = "crowdfunding"
+user = "cryptonean"
+project = "aiken_project_template"
 platform = "github"
 
 [[dependencies]]
@@ -15,16 +15,3 @@ name = "aiken-lang/stdlib"
 version = "2.2.0"
 source = "github"
 
-[[dependencies]]
-name = "aiken-lang/fuzz"
-version = "2.1.0"
-source = "github"
-
-[[dependencies]]
-name = "aiken-extra/test_kit"
-version = "helium"
-source = "github"
-
-[config]
-[config.default]
-state_token = "STATE_TOKEN"

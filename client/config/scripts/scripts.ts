@@ -1,12 +1,12 @@
-import { applyDoubleCborEncoding, Validator } from '@lucid-evolution/lucid'
+import { applyDoubleCborEncoding, Validator } from "@lucid-evolution/lucid";
 
-import { karbonstore_karbonstore_spend } from './plutus'
+import { truly_always_true_truly_always_true_else } from "./plutus";
 
-const identificationNFT_Mint = applyDoubleCborEncoding(
-  karbonstore_karbonstore_spend
-)
+const truly_AlwaysTrue_else = applyDoubleCborEncoding(
+  truly_always_true_truly_always_true_else
+);
 
-export const KarbonStoreValidator: Validator = {
-  type: 'PlutusV3',
-  script: identificationNFT_Mint,
-}
+export const trulyAlwaysTrue: Validator = {
+  type: "PlutusV3",
+  script: truly_AlwaysTrue_else,
+};
