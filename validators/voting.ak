@@ -3,11 +3,11 @@
 // use cardano/transaction.{OutputReference, Transaction}
 
 validator voting {
-  mint() {
+  mint(_r, _p, _tx) {
     todo
   }
 
-  spend() {
+  spend(_d, _r, _oref, _tx) {
     todo
   }
 
