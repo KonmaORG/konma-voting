@@ -1,5 +1,4 @@
 use aiken/collection/dict.{Dict}
-use aiken/collection/list
 use aiken/crypto.{ScriptHash, VerificationKeyHash}
 
 // Type of the unApxn datum
