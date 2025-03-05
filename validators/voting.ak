@@ -2,8 +2,16 @@
 // use cardano/assets.{PolicyId}
 // use cardano/transaction.{OutputReference, Transaction}
 
-validator truly_always_true {
+validator voting {
+  mint() {
+    todo
+  }
+
+  spend() {
+    todo
+  }
+
   else(_) {
-    True
+    fail
   }
 }
